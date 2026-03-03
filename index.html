@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nosso Amor 💜</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0; padding:0; box-sizing:border-box;}
+body{
+    font-family:'Poppins', sans-serif;
+    background:linear-gradient(135deg,#9807ac,#ff0088);
+    color:white;
+    scroll-behavior:smooth;
+    overflow-x:hidden;
+}
+
+/* Contador topo */
+#contador{
+    position:fixed;
+    top:10px;
+    left:50%;
+    transform:translateX(-50%);
+    font-size:18px;
+    padding:6px 12px;
+    background:rgba(0,0,0,0.4);
+    border-radius:12px;
+    z-index:1000;
+}
+
+/* Corações flutuantes */
+.heart{
+    position:absolute;
+    color:#ff4db8;
+    font-size:20px;
+    animation:float 6s linear infinite;
+}
+@keyframes float{
+    0%{transform:translateY(0) scale(1);}
+    50%{transform:translateY(-200px) scale(1.2);}
+    100%{transform:translateY(-400px) scale(0.8); opacity:0;}
+}
+
+/* Seção inicial fofa */
+.header-section{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:0 20px;
+}
+.header-section h1{
+    font-family:'Great Vibes', cursive;
+    font-size:42px;
+    margin-bottom:20px;
+}
+.header-section p{
+    font-size:20px;
+    max-width:80%;
+}
+
+/* Seções estilo stories */
+.story-section{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:20px 0;
+}
+
+.story-card{
+    width:90%;
+    max-width:400px;
+    background:rgba(255,255,255,0.1);
+    border-radius:18px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:15px;
+    margin-bottom:30px;
+}
+
+.story-image{
+    width:100%;
+    height:300px;
+    background-size:cover;
+    background-position:center;
+    border-radius:18px;
+    margin-bottom:15px;
+}
+
+.story-text{
+    background:rgba(0,0,0,0.5);
+    padding:15px;
+    border-radius:12px;
+    width:95%;
+    text-align:center;
+}
+.story-text h2{
+    font-family:'Great Vibes', cursive;
+    font-size:28px;
+    margin-bottom:10px;
+}
+.story-text p{
+    font-size:16px;
+    line-height:1.4;
+}
+
+/* Última mensagem gigante */
+.final-section{
+    width:100%;
+    padding:50px 20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    background:linear-gradient(135deg,#FF1493,#4d4848);
+}
+
+.final-section p{
+    font-size:24px;
+    line-height:1.8;
+    text-align:center;
+    max-width:800px;
+    margin-bottom:20px;
+}
+
+/* Responsivo */
+@media(max-width:480px){
+    .header-section h1{font-size:36px;}
+    .header-section p{font-size:16px;}
+    .story-text h2{font-size:24px;}
+    .story-text p{font-size:14px;}
+    .story-image{height:200px;}
+    .final-section p{font-size:20px;}
+}
+</style>
+</head>
+<body>
+
+<div id="contador"></div>
+
+<!-- Corações flutuantes -->
+<div class="heart" style="left:10%;">❤️</div>
+<div class="heart" style="left:30%; animation-delay:1s;">💖</div>
+<div class="heart" style="left:50%; animation-delay:2s;">💜</div>
+<div class="heart" style="left:70%; animation-delay:0.5s;">❤️</div>
+<div class="heart" style="left:90%; animation-delay:1.5s;">💖</div>
+
+<!-- Seção inicial: tempo juntos -->
+<div class="header-section">
+    <h1>Oi Meu Amor 💜</h1>
+    <p>Já se passaram 9 dias desde que nos conhecemos, e cada dia tem sido um sonho. 💖</p>
+</div>
+
+<!-- Seções estilo stories -->
+<div class="story-section">
+    <div class="story-card">
+        <div class="story-image" style="background-image:url('FOTO 1.jpeg');"></div>
+        <div class="story-text">
+            <h2>Nosso Primeiro Encontro</h2>
+            <p>Foi mágico, cada sorriso seu me encantou.</p>
+        </div>
+    </div>
+
+    <div class="story-card">
+        <div class="story-image" style="background-image:url('FOTO 2.jpeg');"></div>
+        <div class="story-text">
+            <h2>Momentos Felizes</h2>
+            <p>Adoro quando rimos juntos, tudo fica mais leve.</p>
+        </div>
+    </div>
+
+    <div class="story-card">
+        <div class="story-image" style="background-image:url('FOTO 3.jpeg');"></div>
+        <div class="story-text">
+            <h2>Meu Amor</h2>
+            <p>Você ilumina meus dias de uma forma que ninguém mais consegue.</p>
+        </div>
+    </div>
+
+    <div class="story-card">
+        <div class="story-image" style="background-image:url('FOTO 4.jpeg');"></div>
+        <div class="story-text">
+            <h2>Juntos Sempre</h2>
+            <p>Prometo estar ao seu lado em todos os momentos.</p>
+        </div>
+    </div>
+
+    <div class="story-card">
+        <div class="story-image" style="background-image:url('FOTO 5.jpeg');"></div>
+        <div class="story-text">
+            <h2>Eu Te Amo 💜</h2>
+            <p>Esses dias foram só o começo da nossa história linda.</p>
+        </div>
+    </div>
+
+    <div class="story-card">
+        <div class="story-image" style="background-image:url('FOTO 6.jpeg');"></div>
+        <div class="story-text">
+            <h2>Nosso Amor</h2>
+            <p>Cada momento contigo é único, e quero muito mais.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Última seção: texto gigantesco -->
+<div class="final-section">
+    <p>Eu sempre irei te proteger, meu amor. 💖</p>
+    <p>Eu te amo, meu amor, sou completamente apaixonado por você. 💕</p>
+    <p>Quero que você seja o meu último amor e que possamos caminhar juntos por toda a vida. 🌹</p>
+    <p>Obrigado por cada sorriso, cada abraço e cada momento que compartilhamos. Você é meu mundo!</p>
+    <p>Eu sempre vou cuidar de você, apoiar você e amar você com tudo que tenho. Meu amor é infinito! 💜</p>
+    <p>Você é minha inspiração, meu porto seguro, meu motivo de sorrir todos os dias. Estar com você é a melhor coisa do mundo e eu nunca quero te perder.</p>
+    <p>Quero construir sonhos com você, viver aventuras, compartilhar cada detalhe da nossa vida e envelhecer juntos. Eu sou seu e você é minha, para sempre.</p>
+    <p>Meu coração é seu, minha alma é sua, tudo em mim te pertence. Eu te amo profundamente, e cada segundo ao seu lado é um tesouro.</p>
+    <p>Prometo estar ao seu lado em todos os momentos, nos dias de sol e nos dias de chuva, nas risadas e nas lágrimas. Você é tudo para mim.</p>
+    <p>Eu quero passar minha vida inteira com você, meu amor. 💖💜💖</p>
+</div>
+
+<script>
+// Contador de dias juntos
+const dataConhecimento = new Date("2026-02-21 00:00:00");
+function atualizarContador(){
+    const agora = new Date();
+    const diff = agora - dataConhecimento;
+    const dias = Math.floor(diff/(1000*60*60*24));
+    const horas = Math.floor((diff/(1000*60*60))%24);
+    const minutos = Math.floor((diff/(1000*60))%60);
+    document.getElementById('contador').innerText = `${dias} dias, ${horas} horas e ${minutos} minutos juntos 💖`;
+}
+setInterval(atualizarContador,1000);
+</script>
+
+</body>
+</html>
